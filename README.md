@@ -25,7 +25,7 @@ This is a **full-stack Resume OCR & ETL Pipeline** that extracts key information
 
 Here's how the application looks in action:
 
-![Resume Parser UI](./screenshots/image.png)
+![Resume Parser UI](./image.png)
 
 ---
 
