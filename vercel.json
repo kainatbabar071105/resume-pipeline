@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/parse.py": {
+      "runtime": "python3.9",
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/parse.py" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
